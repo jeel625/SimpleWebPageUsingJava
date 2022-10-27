@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--
+    Name : Jeel Patel
+    Project : Exam 
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam -Section Part 1</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <script src="./javaScript/javaScript.js"></script>
+</head>
+<body>
+    <div id="external_border">
+    <table border="1">
+       <thead><th colspan="12">This is a <span style="background-color:red">table element</span>,<br> formated using <span style="background-color:green">CSS</span> (external,internal or inline) and <span style="background-color:blue">JS</span></th></thead>
+       <tfoot>
+        <td colspan="12">
+                <div id="foot_left">
+                    <h5>Patel Jeel : 2220126</h5>
+                </div>
+                <div id="foot_right">
+                    <h5 >copyright2022</h5>
+                </div>
+        </td>
+    </tfoot>
+       <tbody>
+        <tr>
+            <td rowspan="5" class="sidebar1">
+                <div id="content_image2">
+                    <img src="./media/compman.gif" usemap="#compman" width="100px"/>
+                    <map name="compman">
+                        <area shape="rect" coords="9,7,67,52" href="http://www.w3schools.com" target="_blank"
+                       alt="W3Schools" />
+                        </map>
+                    <a href="https://www.w3schools.com/" target="_blank"><img src="./media/valid-xhtml10.png" /></a>
+                </div>
+            </td>
+            <td colspan="10">
+                <br />
+                <fieldset>
+                    <legend>Login Section</legend>
+                        <div id="main_Login">
+                            This is a <span style="background-color:blue">form</span> with input,select,checkbox and radio fields.
+                            <div id="block1_login">
+                                <h3>User Name   :</h3>
+                                <h3>Password &nbsp;&nbsp;:</h3>
+                            </div>
+                            <div id="block2_login">
+                                    <input type="text" placeholder="Enter User name.." id="un"/><br><br>
+                                    <input type="password" placeholder="Enter password.." id="pw" />
+                            </div>
+                        </div>
+                </fieldset>
+            </td>
+            <th rowspan="5" class="sidebar2">
+                <div id="content_image1">
+                    <img src="./media/compman.gif" usemap="#compman" width="100px"/>
+                    <map name="compman">
+                        <area shape="rect" coords="9,7,67,52" href="http://www.w3schools.com" target="_blank"
+                       alt="W3Schools" />
+                        </map>
+                    <a href="https://www.w3schools.com/" target="_blank"><img src="./media/valid-css.png" /></a>
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <th>P</th>
+            <th>A</th>
+            <th>T</th>
+            <th>E</th>
+            <th>L</th>
+            <th> </th>
+            <th>J</th>
+            <th>E</th>
+            <th>E</th>
+            <th>L</th>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <div id="Section3">
+                    <fieldset>
+                        <legend>
+                            Section 1
+                        </legend>
+                        <div id="main_radio">
+                                    <input type="radio" name="bank" value="Visa"/>&nbsp;&nbsp;&nbsp;Visa<br/>
+                                    <input type="radio" name="bank" value="MC"/>&nbsp;&nbsp;&nbsp;MC<br>
+                                    <input type="radio" name="bank" value="Amex"/>&nbsp;&nbsp;&nbsp;Amex
+                        </div>
+                    </fieldset>
+                     <th colspan="5">
+                        <fieldset>
+                            <legend>
+                                Section 2
+                            </legend>
+                            <div id="date">
+                                    <h4>*Expiration Date : </h4>
+                                    <select name="Month" id="month">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+
+                                    <select name="Year" id="year">
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2023</option>
+                                        <option value="2024">2024</option>
+                                        <option value="2025">2025</option>
+                                        <option value="2026">2026</option>
+                                        <option value="2027">2027</option>
+                                        <option value="2028">2028</option>
+                                        <option value="2029">2029</option>
+                                        <option value="2030">2030</option>
+                                        <option value="2031">2031</option>
+                                        <option value="2032">2032</option>
+                                        <option value="2033">2033</option>
+                                    </select>
+                            </div>
+                        </fieldset>
+                    </th>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th id="num1">2</th>
+            <th id="num2">2</th>
+            <th id="num3">2</th>
+            <th id="num4">0</th>
+            <th id="num5">1</th>
+            <th id="num6">2</th>
+            <th id="num7">6</th>
+            <th></th>
+            <th colspan="2"><input type="button" value="calculate and display button" onclick="calcID()" /></th></th>
+          
+        </tr>
+        <!--4-->
+        <tr>
+            <td>
+                <input type="button" value="submit" style="width:90px;border:2px solid black;" onclick="fun1()">
+            </td>
+            <td colspan="7"></td>
+            </td>          
+            </td>
+            <td colspan="2" style="text-align:right">
+                <input type="button" value="Reset" style="width:90px;border:2px solid black" onclick="reset()"/>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>
